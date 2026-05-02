@@ -10,8 +10,28 @@ LabHub is a full-stack GitHub-style pull request dashboard with authentication, 
 ## Run Locally
 
 1. Install dependencies in both apps.
-2. Start the backend server.
-3. Start the frontend development server.
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+```bash
+cd backend
+npm install
+node server.js
+```
+
+The frontend runs on the Vite dev server, and the backend runs on port `5000` by default.
+
+## Push To GitHub
+
+```bash
+git add .
+git commit -m "Update LabHub README"
+git push origin main
+```
 
 ## Tech Stack
 
